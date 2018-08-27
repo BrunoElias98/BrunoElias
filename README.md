@@ -7,4 +7,5 @@
 	
 ## 2) Backend
 	> Navegar até o diretório, npm install para gerar o node_modules no back-end, e utilizar o comando nodemon app para startar a API
-	> A API está para a porta 8080 do localhost: [2]: http://localhost:8080/busca/:param
+	> A API está para a porta 8080 do localhost: [2]: (http://localhost:8080/busca/:param)
+   
