@@ -4,7 +4,6 @@ import { Subject } from 'rxjs/Subject'
 import {FormBuilder, FormGroup, Validators} from '@angular/forms'
 
 
-
 @Component({
   selector: 'app-painel',
   templateUrl: './painel.component.html',
@@ -33,14 +32,14 @@ export class PainelComponent implements OnInit {
   buscaArquivo(){
     var result = this.painelService.busca(this.formBusca.value);
 
-    console.log(result);
-    var p = Promise.resolve(result);
-    p.then(function(v) {
-      console.log(v[0]); // 1
-      return v;
+    new Promise((resolve, reject) => {
+
+    resolve(result)
+    }).then(function(result){
+      console.log(result);
     });
 
-    this.exibir = result;
+    this.exibir = JSON.stringify(this.formBusca.value);
   }
 
 }

@@ -22,7 +22,7 @@ exports.find = function (req, res){
 
         return res.json(data);
     })
-    
+    /*
     fs.readFile("./data/materials.json", "utf-8", function(err, data){
 
         if(err){
@@ -82,5 +82,5 @@ exports.find = function (req, res){
             
         //return res.json(jsonData);
     })
-    
+    */
 }
