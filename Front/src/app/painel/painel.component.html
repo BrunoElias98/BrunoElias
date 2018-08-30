@@ -9,7 +9,6 @@
           <form [formGroup]="formBusca" >
             <div class="col-lg-3 form-group">
               <div class="col-lg-12 form-group">
-                <label>Busca</label>
                 <input class="form-control" formControlName="busca" placeholder="Informe o que deseja Filtrar"/>
               </div>
             </div>
@@ -30,7 +29,7 @@
     </div>
 
      <div class="panel-footer">
-        <p>{{ exibir }}</p>
+        <p>{{ this.exibir }}</p>
      </div>
   </div>
 </div>

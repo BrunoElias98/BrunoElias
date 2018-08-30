@@ -38,7 +38,7 @@ export class PainelComponent implements OnInit {
     }).then(function(result){
       console.log(result);
     });
-
+    console.log(this.exibir = JSON.stringify(this.formBusca.value));
     this.exibir = JSON.stringify(this.formBusca.value);
   }
 
