@@ -1,5 +1,5 @@
-# BrunoElias - 27/08/2018
- Desenvolvimento de um sistema MultiSearch para a empresa Seed Tecnologia, utilizando as tecnologias AngularJS e NodeJS, e a IDE Visual Studio Code.
+# Bruno Elias - 27/08/2018
+ Desenvolvimento de um sistema MultiSearch que busca arquivos json do back end pra filtrar na busca, utilizando as tecnologias Angular4, NodeJS, e a IDE Visual Studio Code.
  
 ## 1) Frontend
 	> Navegar até o diretório, npm install para gerar o node_modules no front-end, e utilizar o comando ng serve
